@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de controle de perdas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <div>
+        <form method="post">
+            <input type="text" id="atividade" placeholder="digite aqui">
+            <input type="date"id="dataAtv">
+            <input type="submit"id="btnCadastrar" value="Cadastrar">
+        </form>
+    </div>
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>Atividade</th>
+                <th>Data</th>
+                <th>Acao</th>
+            </tr>
+        </thead>
+        <tbody id="lista">
+        </tbody>
+        </table>
+    </div>
+</div>
+    <script src="todo.js"></script>
+    
+</body>
+
+</html>
